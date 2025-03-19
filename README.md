@@ -41,7 +41,7 @@ git clone https://github.com/FerPaye01/amigo_secreto.git
 ```
 
 GitHub Pages
-- Visita 
+- Visita https://ferpaye01.github.io/amigo_secreto/
 
 ## 💻Tecnologías Utilizadas
 - HTML5: Estructura de la página y organización del contenido.
