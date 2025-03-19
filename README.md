@@ -50,9 +50,7 @@ GitHub Pages
 
 
 ## 🤝Personas Contribuyentes
-- Equipo de Instructores de Alura Latam
-  - Miley
-  - ..
+- Equipo de Instructores de Alura Latam (continuar agregando)
 
 ## 👨‍💻Personas Desarrolladoras
 - Oscar Fernando Paye Cahui - Autor
