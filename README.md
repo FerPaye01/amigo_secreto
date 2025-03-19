@@ -19,19 +19,19 @@ Implementación del juego de amigo secreto propuesto por ALURA LATAM
 
 
 ## 📙Descripción del Proyecto
-Implementación de una página que muestra un juego de "Amigo Secreto" propuesto por el Challenge "Practicando Lógica de Programación: Challenge Amigo secreto"
-
-
-
-
-
-
+Este proyecto es parte del Challenge **"Practicando Lógica de Programación: Challenge Amigo Secreto"** de Alura Latam.  
+La aplicación permite ingresar una lista de nombres (amigos) y realizar un sorteo automático o manual para asignar “amigos secretos”, evitando duplicados y parejas repetidas en orden inverso.
 
 ## 🚀Estado del Proyecto
-Actualmente el proyecto se encuentra en desarrollo...
+Actualmente el proyecto se encuentra en desarrollo. Se han implementado la mayor parte de las funcionalidades básicas, pero se seguirán puliendo detalles de la interfaz y la lógica de sorteo.
 
 ## 🎥Funciones y Aplicaciones
-- 
+- **Ingreso de amigos en “modo cajitas”**: Cada amigo se escribe en un input individual, con la opción de borrar o editar.  
+- **Modo texto (opcional)**: Se pueden pegar varios nombres en un textarea (uno por línea).  
+- **Sorteo automático**: Asigna amigos secretos a todos de forma secuencial, evitando parejas repetidas o autoasignaciones.  
+- **Reiniciar**: Restaura las listas al estado original, para volver a comenzar.  
+- **Borrar listas**: Limpia completamente todos los datos, permitiendo comenzar desde cero.
+
 
 
 ## 📁Acceso al Proyecto
@@ -50,7 +50,9 @@ GitHub Pages
 
 
 ## 🤝Personas Contribuyentes
-- 
+- Equipo de Instructores de Alura Latam
+  - Miley
+  - ..
 
 ## 👨‍💻Personas Desarrolladoras
 - Oscar Fernando Paye Cahui - Autor

@@ -1,162 +1,187 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+  --color-primaria: #4B69FD;
+  --color-secundaria: #FFF9EB;
+  --color-terciaria: #fe652b;
+  --color-texto: #333;
+  --color-fondo: #fff;
+  --color-hover: #ddd;
+  --color-borde: #aaa;
+  --fuente-primaria: Arial, sans-serif;
 }
 
-/* Estilos generales */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    background-color: var(--color-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: var(--fuente-primaria);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
+header {
+  background-color: var(--color-primaria);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
 
-/* Banner */
-.header-banner {
-    flex: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0 0;
+header h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
-/* Sección de entrada */
-.input-section {
-    flex: 60%;
-    background-color: var(--color-secondary);
-    border: 1px solid #000;
-    border-radius: 64px 64px 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-/* Títulos */
-.main-title {
-    font-size: 48px;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
-    color: var(--color-white);
+.step-box {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  padding: 1rem;
+  border: 2px solid var(--color-fondo);
+  border-radius: 8px;
+  width: 300px;
 }
 
-.section-title {
-    font-family: "Inter", serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin: 10px 0;
-    text-align: center;
+.step-box h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--color-texto);
 }
 
-/* Contenedores de entrada y botón */
-.input-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 600px;
-    margin-top: 20px;
+.screenshot img {
+  max-width: 250px;
+  height: auto;
 }
 
-.input-name {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #000;
-    border-radius: 25px 0 0 25px;
-    font-size: 16px;
+.person-figure img {
+  max-width: 400px;
+  height: auto;
 }
 
-.button-container {
-    width: 300px;
-    justify-content: center;
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-/* Estilos de entrada de texto */
-.input-title {
-    flex: 1;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: 2px solid #333;
-    border-right: none;
-    border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+.column {
+  background-color: #f9f9f9;
+  border: 1px solid var(--color-borde);
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1;
+  min-width: 200px;
 }
 
-/* Estilos de botón */
-button {
-    padding: 15px 30px;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    border: 2px solid #000;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+.menu {
+  background-color: var(--color-secundaria);
 }
 
-.button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
-    border-radius: 0 25px 25px 0;
+.menu h2 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
-.button-add:hover {
-    background-color: #a1a1a1;
+.menu button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  background-color: var(--color-hover);
+  font-size: 0.9rem;
 }
 
-/* Listas */
-ul {
-    list-style-type: none;
-    color: var(--color-text);
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    margin: 20px 0;
+.friends-input {
+  background-color: var(--color-secundaria);
 }
 
-.result-list {
-    margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
+.friends-input h2 {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
 }
 
-/* Botón de sortear título */
-.button-draw {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 10px 40px;
-    color: var(--color-white);
-    background-color: var(--color-button);
-    font-size: 16px;
+.friend-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
-.button-draw img {
-    margin-right: 40px;
+.friend-row input[type="text"] {
+  flex: 1;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #999;
+  border-radius: 4px;
 }
 
-.button-draw:hover {
-    background-color: var(--color-button-hover);
+.circle-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--color-texto);
+  background-color: var(--color-hover);
+  cursor: pointer;
+  margin-right: 0.3rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: center;
+}
+
+#add-friend-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  border: 1px solid var(--color-texto);
+  background-color: var(--color-hover);
+  cursor: pointer;
+}
+
+.sort-area p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.box {
+  background-color: #eee;
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  min-height: 60px;
+}
+
+#sort-btn {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: var(--color-terciaria);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.result-area {
+  background-color: var(--color-secundaria);
+}
+
+.result-area p {
+  font-size: 1rem;
+  line-height: 1.4;
 }
